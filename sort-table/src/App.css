@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border: 1px solid #303030;
+}
+
+table th {
+    border: 1px solid lightblue;
+    cursor: pointer
+}
+
+table td {
+    border: 1px solid lightblue;
+}
