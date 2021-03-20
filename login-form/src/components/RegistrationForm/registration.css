@@ -1,0 +1,12 @@
+.login-cta {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+
+.login-cta:hover {
+    font-size: 1em;
+    color: blue;
+}
