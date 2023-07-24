@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.answers {
+  display: flex;
+  gap: 20px;
+}
+
+.main {
+  text-align: left;
+}
+
+.form--check {
+  margin-top: 20px;
+}
+
+.form--radios {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: fit-content(100%) fit-content(100%);
+}
+
+.form-radio {
+  display: none;
+}
+
+.form--label {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.form--false {
+  background-color: #f8bcbc;
+  border-color: #f8bcbc;
+}
+
+.form--true {
+  background-color: #94d7a2;
+  border-color: #94d7a2;
+}
+
+.form--warning {
+  color: #f8bcbc;
+  font-family: 'inter', sans-serif;
+  margin-right: 1em;
+}
+
+.form--answer {
+  color: #94d7a2;
+  font-family: 'inter', sans-serif;
+  margin-left: 2em;
+}
+
+.form--time-duration {
+  font-family: 'inter', sans-serif;
+  font-size: 2rem;
+}
+
+.unchecked .radio1:checked ~ .label1,
+.unchecked .radio2:checked ~ .label2,
+.unchecked .radio3:checked ~ .label3,
+.unchecked .radio4:checked ~ .label4,
+.unchecked .radio4:checked ~ .label5 {
+  background-color: #d6dbf5;
+  border-color: #d6dbf5;
+}
+
+.radio1:disabled ~ .label1,
+.radio2:disabled ~ .label2,
+.radio3:disabled ~ .label3,
+.radio4:disabled ~ .label4,
+.radio4:disabled ~ .label5 {
+  border-color: rgba(0, 0, 0, 0.507);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
